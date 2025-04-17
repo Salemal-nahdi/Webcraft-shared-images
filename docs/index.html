@@ -3,43 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webcraft Shared Images</title>
+    <title>Webcraft Image Repository</title>
+    <!-- Add image indexing metadata for Imgix -->
+    <meta name="description" content="Image repository for SEQ Decks and Patios and other Webcraft websites">
+    <link rel="canonical" href="https://webcraft-images.netlify.app/">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
             line-height: 1.6;
-        }
-        h1 {
             color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
         }
         .image-gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
-            margin-top: 30px;
+            margin: 30px 0;
         }
-        .image-gallery img {
+        .image-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 15px;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+        .image-card img {
             width: 100%;
-            height: auto;
-            border-radius: 5px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .image-info {
+            padding: 15px;
+            background-color: #f8f9fa;
+        }
+        .image-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+        }
+        .image-path {
+            font-family: monospace;
+            background-color: #eaeaea;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 20px;
+        }
+        .collection-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .imgix-info {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #0066cc;
         }
     </style>
 </head>
 <body>
-    <h1>Webcraft Shared Images</h1>
-    <p>This repository contains images used across multiple Webcraft websites, optimized and delivered through Imgix.</p>
-    
-    <h2>Available Image Collections:</h2>
-    <ul>
-        <li><a href="https://github.com/Salemal-nahdi/Webcraft-shared-images/tree/main/images/seaqdecksandpatios">SEQ Decks and Patios</a></li>
-    </ul>
-    
-    <h2>Sample Images:</h2>
-    <div class="image-gallery">
-        <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/1.jpg" alt="SEQ Decks and Patios Image">
+    <header>
+        <h1>Webcraft Image Repository</h1>
+        <p>This repository hosts images to be used across multiple websites through Imgix. All images are properly organized by project.</p>
+        
+        <div class="imgix-info">
+            <h3>Imgix Integration</h3>
+            <p>Base URL for Imgix: <code>https://webcraft-images.netlify.app</code></p>
+            <p>Example Imgix URL: <code>https://your-imgix-source.imgix.net/images/seaqdecksandpatios/1.jpg?w=800&auto=format,compress</code></p>
+        </div>
+    </header>
+
+    <div class="collection-header">
+        <h2>SEQ Decks and Patios Collection</h2>
+        <p>Total images: 14</p>
     </div>
+    
+    <div class="image-gallery">
+        <!-- Standard images with proper path structure -->
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/1.jpg" alt="SEQ Decks and Patios 1">
+            <div class="image-info">
+                <h3>Deck Image 1</h3>
+                <div class="image-path">/images/seaqdecksandpatios/1.jpg</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/2.jpg" alt="SEQ Decks and Patios 2">
+            <div class="image-info">
+                <h3>Deck Image 2</h3>
+                <div class="image-path">/images/seaqdecksandpatios/2.jpg</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/3.jpg" alt="SEQ Decks and Patios 3">
+            <div class="image-info">
+                <h3>Deck Image 3</h3>
+                <div class="image-path">/images/seaqdecksandpatios/3.jpg</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/4.JPG" alt="SEQ Decks and Patios 4">
+            <div class="image-info">
+                <h3>Deck Image 4</h3>
+                <div class="image-path">/images/seaqdecksandpatios/4.JPG</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/IMG_6666.jpg" alt="SEQ Decks and Patios">
+            <div class="image-info">
+                <h3>Deck Image 11</h3>
+                <div class="image-path">/images/seaqdecksandpatios/IMG_6666.jpg</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/IMG_6769.jpg" alt="SEQ Decks and Patios">
+            <div class="image-info">
+                <h3>Deck Image 12</h3>
+                <div class="image-path">/images/seaqdecksandpatios/IMG_6769.jpg</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/IMG_7153.jpg" alt="SEQ Decks and Patios">
+            <div class="image-info">
+                <h3>Deck Image 13</h3>
+                <div class="image-path">/images/seaqdecksandpatios/IMG_7153.jpg</div>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="https://media.githubusercontent.com/media/Salemal-nahdi/Webcraft-shared-images/main/images/seaqdecksandpatios/final logo.png" alt="SEQ Decks and Patios Logo">
+            <div class="image-info">
+                <h3>SEQ Decks and Patios Logo</h3>
+                <div class="image-path">/images/seaqdecksandpatios/final logo.png</div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Webcraft. All images are for use with authorized websites only.</p>
+    </footer>
 </body>
 </html> 

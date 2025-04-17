@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://webcraft-images.netlify.app/</loc>
+    <lastmod>2024-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/1.jpg</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/1.jpg</image:loc>
+      <image:title>SEQ Decks and Patios Image 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/2.jpg</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/2.jpg</image:loc>
+      <image:title>SEQ Decks and Patios Image 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/3.jpg</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/3.jpg</image:loc>
+      <image:title>SEQ Decks and Patios Image 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/4.JPG</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/4.JPG</image:loc>
+      <image:title>SEQ Decks and Patios Image 4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/IMG_6666.jpg</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/IMG_6666.jpg</image:loc>
+      <image:title>SEQ Decks and Patios Image</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/IMG_6769.jpg</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/IMG_6769.jpg</image:loc>
+      <image:title>SEQ Decks and Patios Image</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/IMG_7153.jpg</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/IMG_7153.jpg</image:loc>
+      <image:title>SEQ Decks and Patios Image</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/final%20logo.png</loc>
+    <image:image>
+      <image:loc>https://webcraft-images.netlify.app/images/seaqdecksandpatios/final%20logo.png</image:loc>
+      <image:title>SEQ Decks and Patios Logo</image:title>
+    </image:image>
+  </url>
+</urlset> 
